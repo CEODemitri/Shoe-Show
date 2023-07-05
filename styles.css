@@ -1,19 +1,15 @@
-html {
-  height: 100%;
-  width: 100%;
-}
-
 body {
-  background-image: url(bg.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+	background-color: black;
+	justify-content: center;
+	max-width: 325px;
+	max-height: 500px;
+	margin: auto;
 }
 
-@media screen and (min-size: 759px) {
-  body {
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+.container {
+	background-image: url(bg.png);
+	background-size: cover;
+	padding: 1%;
 }
 
 nav {
@@ -34,6 +30,10 @@ nav:after {
 
 }
 
+.red {
+  background-color: red;
+}
+
 h1>p {
   text-align: left;
   margin-left: 20px;
@@ -41,15 +41,12 @@ h1>p {
 
 }
 
-.red {
-  background-color: red;
-}
 
 .button {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin: 140px 20px 0px 20px;
+  margin: 100px 20px 20px 20px;
   top: 20px;
 }
 
