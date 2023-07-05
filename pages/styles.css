@@ -1,0 +1,44 @@
+body {
+	background-color: black;
+	justify-content: center;
+	max-width: 350px;
+	margin: auto;
+}
+
+.hero {
+	color: white;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+}
+
+.line {
+	width: 65%;
+	height: 5px;
+	background-color: white;
+	margin: auto;
+	margin-bottom: 28px;
+}
+
+.container {
+	width: 350px;
+	height: 350px;
+	background: rgba(125, 125, 255, 0.6);
+	margin: auto;
+	border: 2px solid white;
+	border-radius: 7px;
+	color: white;
+	display: flex;
+	flex-direction: column;
+}
+
+.month {
+	margin: auto;
+	text-decoration: none;
+	font-size: 1.3rem;
+	color: indianred;
+}
+
+.month:after {
+	color: blue;
+}

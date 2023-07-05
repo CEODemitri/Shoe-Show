@@ -1,0 +1,85 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url(bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-size: 759px) {
+  body {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+nav {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav:after {
+  color: red;
+}
+
+.header {
+  color: black;
+  display: flex;
+  margin-bottom: 20px;
+
+}
+
+h1>p {
+  text-align: left;
+  margin-left: 20px;
+  font-size: 2.5rem;
+
+}
+
+.red {
+  background-color: red;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 140px 20px 0px 20px;
+  top: 20px;
+}
+
+.btn {
+  background: rgba(140, 140, 240, 0.7);
+  border-radius: 20px;
+  height: 2em;
+  font-size: 1.1rem;
+  color: rgba(255, 255, 240, 1.0);
+  font-weight: bolder;
+  border-style: none;
+
+}
+
+.btn-black {
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  height: 2em;
+  font-size: 1.1rem;
+  color: rgba(255, 255, 240, 1.0);
+  font-weight: bolder;
+  border-style: none;
+}
+
+.btn-black:hover {
+  background-color: red;
+}
+
+
+.btn:hover {
+  background: purple;
+  color: white;
+}
