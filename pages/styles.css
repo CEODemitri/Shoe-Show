@@ -31,18 +31,13 @@ body {
 	flex-direction: column;
 }
 
-.cycle {
-	margin: auto 0;
-	text-decoration: none;
-	font-size: 1.3rem;
-	color: white;
-}
-
 .month {
 	background-color: grey;
 }
 
 .shoe {
+	font-size: 1.3em;
 	color: black;
-	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.3);
+	margin: 0 40px;
 }
