@@ -45,3 +45,7 @@ body {
 img {
 	border-radius: 7px;
 }
+
+@media (min-size: 550px) {
+	
+}
