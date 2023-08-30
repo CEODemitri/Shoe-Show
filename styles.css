@@ -25,6 +25,8 @@ body {
 	-webkit-background-clip: text;
 	color: transparent;
 	font-size: 3.7em;
+	font-family: Lilita One;
+	letter-spacing: 0.2rem;
 }
 
 .sell {
@@ -36,9 +38,12 @@ body {
 }
 
 .calendar-btn {
-	font-weight: bold;
 	border: none;
 	box-shadow: 1px 3px 1px;
+}
+
+.calendar-btn > a {
+	font-family: Lilita one
 }
 
 .path {
