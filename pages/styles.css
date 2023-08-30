@@ -2,7 +2,6 @@ body {
 	justify-content: center;
 	max-width: 350px;
 	margin: auto;
-	font-family: Lilita One;
 	letter-spacing: 2px;
 }
 
@@ -11,6 +10,7 @@ body {
 	display: flex;
 	text-align: center;
 	flex-direction: column;
+	font-family: Lilita One;
 }
 
 .line {
@@ -36,6 +36,7 @@ body {
 .month {
 	background-color: grey;
 	padding: 5px;
+	font-family: Lilita One;
 }
 
 .shoe {
