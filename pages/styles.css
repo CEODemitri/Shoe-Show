@@ -5,6 +5,22 @@ body {
 	letter-spacing: 2px;
 }
 
+nav {
+	display: fixed;
+	top: 0;
+	left: 0;
+}
+
+.nav-bar {
+	display: flex;
+	justify-content: center;
+}
+
+.home-btn {
+	position: absolute;
+	top: 15px;
+}
+
 .hero {
 	color: black;
 	display: flex;
@@ -54,7 +70,7 @@ img {
 }
 
 .info {
-	font-size: 13px;
+	font-size: 15px;
 	padding: 20px;
 }
 
