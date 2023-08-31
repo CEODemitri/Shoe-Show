@@ -39,6 +39,10 @@ body {
 	font-family: Lilita One;
 }
 
+.box {
+	margin-bottom: 65px;
+}
+
 .shoe {
 	font-size: 1.3em;
 	color: black;
@@ -47,6 +51,11 @@ body {
 	
 img {
 	border-radius: 7px;
+}
+
+.info {
+	font-size: 13px;
+	padding: 20px;
 }
 
 @media (min-size: 550px) {
