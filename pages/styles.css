@@ -19,6 +19,7 @@ nav {
 .home-btn {
 	margin-top: 1rem;
 	text-decoration: none;
+	padding: 10px;
 }
 
 .nav-bar > ul {
@@ -82,6 +83,11 @@ img {
 	padding: 20px;
 }
 
+hr {
+	width: 80%;
+	margin: 20px;
+}
+
 @media (min-size: 550px) {
 	
 }
@@ -98,4 +104,13 @@ img {
 	.shoe {
 		color: #dcb;
 	}
+  }
+
+  .test {
+	width: 100px;
+	height: 100px;
+	background-color: blueviolet;
+	position: absolute;
+	margin: 20px;
+	z-index: -3;
   }
