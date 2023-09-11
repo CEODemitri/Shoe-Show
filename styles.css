@@ -115,6 +115,14 @@ body {
 	}
 }
 
+
+
+/* 
+	Leave this off until I more adequately flip the scheme
+	This way leaves squaer white boxes around most photos
+*/
+
+/* 
 @media (prefers-color-scheme: dark) {
 	body {
 	  background: #000;
@@ -129,7 +137,11 @@ body {
 	.swap {
 		color: #dcb;
 	}
-}
+
+	.hype {
+		display: none;
+	}
+} */
 
 
 

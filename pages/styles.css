@@ -17,9 +17,16 @@ nav {
 }
 
 .home-btn {
-	margin-top: 1rem;
-	text-decoration: none;
+	margin-top: 0.5rem;
 	color: black;
+	font-size: 1.3em;
+	padding: 10px;
+}
+
+.blog-btn {
+	margin-top: 0.7rem;
+	font-size: 1.5em;
+	padding: 10px;
 }
 
 .nav-bar > ul {
@@ -104,14 +111,20 @@ hr {
 	.shoe {
 		color: #dcb;
 	}
+	.home-btn, .blog-btn {
+		color: white;
+		font-size: 1.3em;
+		padding: 10px;
+	}
+
+	.test {
+		background-color: #dcb;
+	}
   }
 
   .test {
-	width: 100px;
-	height: 100px;
-	background-color: blueviolet;
-	position: absolute;
-	margin: 20px;
-	z-index: -3;
+	width: 75px;
+	height: 75px;
+	background-color: rgb(90, 65, 113);
 	border-radius: 10%;
   }
