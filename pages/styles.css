@@ -25,6 +25,7 @@ nav {
 
 .blog-btn {
 	margin-top: 0.7rem;
+	color: #000;
 	font-size: 1.5em;
 	padding: 10px;
 }
@@ -118,13 +119,13 @@ hr {
 	}
 
 	.test {
-		background-color: #dcb;
+		background: linear-gradient(90deg, rgb(137, 67, 138) 30%, white)
 	}
   }
 
   .test {
 	width: 75px;
 	height: 75px;
-	background-color: rgb(90, 65, 113);
+	background-color: crimson;
 	border-radius: 10%;
   }

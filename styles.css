@@ -31,7 +31,7 @@ body {
 
 .calendar-btn {
 	border: none;
-	box-shadow: 1px 3px 1px;
+	box-shadow: 1px 3px 10px;
 }
 
 .calendar-btn > a {
@@ -107,6 +107,8 @@ body {
 		margin: auto;
 		gap: 35px;
 		overflow: scroll;
+		box-sizing: none;
+		overflow: none;
 	}
 
 	.hype {
