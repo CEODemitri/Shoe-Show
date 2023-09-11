@@ -21,7 +21,7 @@ gsap.set(".shoe1", {
 gsap.from(".shoe1", {
   scrollTrigger: {
     trigger: ".a",
-    start: "top 50%",
+    start: "top 10%",
     end: "+=40",
     scrub: 1,
   },
@@ -38,7 +38,7 @@ gsap.set(".shoe2", {
 gsap.from(".shoe2", {
   scrollTrigger: {
     trigger: ".b",
-    start: "top 50%",
+    start: "top +=50%",
     end: "+=50",
     scrub: 1,
   },
