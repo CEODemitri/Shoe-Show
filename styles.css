@@ -58,12 +58,22 @@ body {
 
 .timer {
 	margin-top: 6rem;
-	height: 400px;
 }
 
 .shoe-place {
-	background-color: red;
-	height: 40%;
+
+}
+
+@media (min-width:540px) {
+	.logos {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.hype {
+		width: 250px;
+		height: 50%;
+	}
 }
 
 @media (prefers-color-scheme: dark) {

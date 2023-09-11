@@ -21,7 +21,7 @@ gsap.set('.shoe1', {
 gsap.from('.shoe1', {
   scrollTrigger: {
     trigger: '.a',
-    start: '-40%',
+    start: 'top top',
     end: '+=40',
     scrub: 1
   },
