@@ -21,7 +21,7 @@ gsap.set(".shoe1", {
 gsap.from(".shoe1", {
   scrollTrigger: {
     trigger: ".a",
-    start: "top top",
+    start: "top 100%",
     end: "+=40",
     scrub: 1,
   },
@@ -38,7 +38,7 @@ gsap.set(".shoe2", {
 gsap.from(".shoe2", {
   scrollTrigger: {
     trigger: ".b",
-    start: "top top",
+    start: "top 100%",
     end: "+=50",
     scrub: 1,
   },
@@ -55,7 +55,7 @@ gsap.set(".shoe3", {
 gsap.from(".shoe3", {
   scrollTrigger: {
     trigger: ".c",
-    start: "top top",
+    start: "top 100%",
     end: "+=40",
     scrub: 1,
   },
@@ -72,7 +72,7 @@ gsap.set(".shoe4", {
 gsap.from(".shoe4", {
   scrollTrigger: {
     trigger: ".d",
-    start: "top top",
+    start: "top 100%%",
     end: "+=40",
     scrub: 1,
   },
@@ -89,7 +89,7 @@ gsap.set(".shoe5", {
 gsap.from(".shoe5", {
   scrollTrigger: {
     trigger: ".e",
-    start: "top top",
+    start: "top 100%",
     end: "+=40",
     scrub: 1,
   },
@@ -106,7 +106,7 @@ gsap.set(".shoe6", {
 gsap.from(".shoe6", {
   scrollTrigger: {
     trigger: ".f",
-    start: "top top",
+    start: "top 100%",
     end: "+=40",
     scrub: 1,
   },
@@ -123,7 +123,7 @@ gsap.set(".shoe7", {
 gsap.from(".shoe7", {
   scrollTrigger: {
     trigger: ".g",
-    start: "top top",
+    start: "top 100%",
     end: "+=40",
     scrub: 1,
   },
@@ -140,7 +140,7 @@ gsap.set(".shoe8", {
 gsap.from(".shoe8", {
   scrollTrigger: {
     trigger: ".h",
-    start: "top top",
+    start: "top 100%",
     end: "+=40",
     scrub: 1,
   },
@@ -157,7 +157,7 @@ gsap.set(".shoe9", {
 gsap.from(".shoe9", {
   scrollTrigger: {
     trigger: ".i",
-    start: "top top",
+    start: "top 100%",
     end: "+=40",
     scrub: 1,
   },
@@ -174,7 +174,7 @@ gsap.set(".shoe10", {
 gsap.from(".shoe10", {
   scrollTrigger: {
     trigger: ".j",
-    start: "top top%",
+    start: "top 100%",
     end: "+=40",
     scrub: 1,
   },
