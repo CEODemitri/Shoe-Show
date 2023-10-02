@@ -184,6 +184,23 @@ gsap.from(".shoe10", {
   scale: 0.7,
 });
 
+gsap.set(".shoe11", {
+  opacity: 1,
+  scale: 1,
+});
+gsap.from(".shoe11", {
+  scrollTrigger: {
+    trigger: ".j",
+    start: "top 100%",
+    end: "+=40",
+    scrub: 1,
+  },
+  x: -300,
+  duration: 2,
+  opacity: 0,
+  scale: 0.7,
+});
+
 // method --target -- variable
 gsap.to(".test", {
   scale: 0.5,
