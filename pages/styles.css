@@ -100,7 +100,8 @@ hr {
 	
 }
 
-@media (prefers-color-scheme: dark) {
+/* this is not correct and/or not complete. dunno y it is not this simple. */
+/* @media (prefers-color-scheme: dark) {
 	.dark {
 	  background: #000;
 	  color: #dcb;
@@ -121,7 +122,7 @@ hr {
 	.test {
 		background: linear-gradient(90deg, rgb(218, 208, 176) 30%, white)
 	}
-  }
+  } */
 
   .test {
 	width: 75px;

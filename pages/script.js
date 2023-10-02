@@ -190,12 +190,12 @@ gsap.set(".shoe11", {
 });
 gsap.from(".shoe11", {
   scrollTrigger: {
-    trigger: ".j",
+    trigger: ".k",
     start: "top 100%",
     end: "+=40",
     scrub: 1,
   },
-  x: -300,
+  x: 300,
   duration: 2,
   opacity: 0,
   scale: 0.7,
