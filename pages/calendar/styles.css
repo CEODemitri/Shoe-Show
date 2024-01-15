@@ -1,6 +1,6 @@
 body {
 	justify-content: center;
-	max-width: 350px;
+	/* max-width: 350px; */
 	margin: auto;
 	letter-spacing: 2px;
 	display: relative;
@@ -22,9 +22,6 @@ nav {
 	justify-content: space-between;
 }
 
-.logo {
-	margin-top: 5px;
-}
 
 .home-btn {
 	margin-top: 0.5rem;

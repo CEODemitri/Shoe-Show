@@ -9,6 +9,7 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
   		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   		<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+		  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 		<script type="module" src="script.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
@@ -17,15 +18,33 @@
 		<title>UpComing</title>
 	</head>
 	<body class="dark">
-		<nav class="sticky">
-			<div class="nav-bar sticky">
-				<a href="/index.html" class="home-btn"><img src="../assets/SHOE SHOE.png" alt="shoe show logo" width="135" height="45" class="logo"></a>
-				<a href="#" class="blog-btn"><i class="bi bi-airplane-fill"></i></a>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="/">Shoe Show</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+			  <ul class="navbar-nav">
+				<!-- screen reader only attribuute value seems to not work as is -->
+          		<!-- i have commented it out to save it for later research -->
+          		<!-- <li class="nav-item active">
+            		<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+         		</li> -->
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Features</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Pricing</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link disabled" href="#">Disabled</a>
+				</li>
+			  </ul>
 			</div>
-		</nav>
+		  </nav>
 		<div class="test"></div>
-		<div class="hero dark">
-			<h1>2023 - 2024 Season</h1>
+		<div class="dark">
+			<h1>2024 - 2025 Season</h1>
 			<p class="">Of course things may change, but for now, these are our top prospects.</p>
 		</div>
 
@@ -172,7 +191,7 @@
 				</div>	
 
 			<div>
-				<h2 class="month i">2024</h2>
+				<h2 class="month i">2025</h2>
 				<div>
 					<div class="shoe">
 						<img
@@ -182,7 +201,7 @@
 							class="shoe9"	
 						/>
 						<div class="info">
-							<p>2024</p>
+							<p>2025</p>
 							<h3>"Gore-Tex"</h3>
 							<p>$200</p>
 							<p>Black/Sky J Light Olive-Bright Mandarin-Sail-Noise Aqua</p>
@@ -200,7 +219,7 @@
 								class="shoe10"	
 							/>
 							<div class="info">
-								<p>2024</p>
+								<p>2025</p>
 								<h3>"85 Wings"</h3>
 								<p>$1500</p>
 								<p>Black/Wolf Grey/Black Metallic Gold</p>
@@ -218,7 +237,7 @@
 									class="shoe11"	
 								/>
 								<div class="info">
-									<p>2024</p>
+									<p>2025</p>
 									<h3>"GORE-TEX Light Berry"</h3>
 									<p>$200</p>
 									<p>Black/Light Berry/Off White</p>
