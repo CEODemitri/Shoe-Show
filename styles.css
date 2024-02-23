@@ -21,8 +21,35 @@ body {
 	letter-spacing: 0.2rem;
 }
 
-.sell {
-	/* margin-right: 5px; */
+.hero-container {
+	height: 450px;
+	position: relative;
+	margin-bottom: 100px;
+}
+
+.hero-text {
+	font-size: 5rem;
+	text-align: center;
+	font-family: "Orbitron";
+	font-weight: 900;
+	margin: 0;
+	padding: 0;
+	z-index: -99;
+}
+
+.hero-img {
+	display: block;
+	margin: auto;
+	z-index: 1000;
+	margin-bottom: 20px;
+	position: absolute;
+	top: 70px;
+	left: 300px;
+}
+
+.punch {
+	font-size: 0.9rem;
+	width: 40ch;
 }
 
 .login {
